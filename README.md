@@ -1,6 +1,6 @@
 # 👥 Employee Attendance Power BI Dashboard
 
-> **Building the first-ever attendance visibility system for a System Engineering team — from security swipe logs to actionable workforce insights.**
+> **Building the first-ever attendance visibility system for a department — from security swipe logs to actionable workforce insights.**
 
 ---
 
@@ -26,7 +26,7 @@ This project filled that gap entirely. By transforming raw **access card swipe l
 
 ## 💡 Solution
 
-Designed and built a **first-of-its-kind attendance analytics dashboard** for the System Engineering team. The pipeline began with a manual extraction of access card entry/exit logs from the ACMS software at the security office, followed by data cleansing and EDA in Excel, and culminated in an interactive Power BI dashboard that gave engineering managers on-demand visibility into their workforce.
+Designed and built a **first-of-its-kind attendance analytics dashboard** for the mentioned department. The pipeline began with a manual extraction of access card entry/exit logs from the ACMS software at the security office, followed by data cleansing and EDA in Excel, and culminated in an interactive Power BI dashboard that gave engineering managers on-demand visibility into their workforce.
 
 ---
 
@@ -89,7 +89,7 @@ Designed and built a **first-of-its-kind attendance analytics dashboard** for th
 
 | Role | How They Used the Dashboard |
 |---|---|
-| **System Engineering Managers** | Monitored shift attendance, tracked OT utilization, identified absence trends, and made informed decisions on team resource planning |
+| **Department Managers** | Monitored shift attendance, tracked OT utilization, identified absence trends, and made informed decisions on team resource planning |
 
 ---
 
