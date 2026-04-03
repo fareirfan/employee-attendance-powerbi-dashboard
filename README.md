@@ -112,7 +112,7 @@ employee-attendance-powerbi-dashboard/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/fariezeirfan/employee-attendance-powerbi-dashboard.git
+   git clone https://github.com/fareirfan/employee-attendance-powerbi-dashboard.git
    ```
 
 2. **Open `dashboard.pbix`** in Microsoft Power BI Desktop to explore the report
