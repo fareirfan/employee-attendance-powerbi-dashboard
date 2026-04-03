@@ -26,7 +26,7 @@ This project filled that gap entirely. By transforming raw **access card swipe l
 
 ## 💡 Solution
 
-Designed and built a **first-of-its-kind attendance analytics dashboard** for the mentioned department. The pipeline began with a manual extraction of access card entry/exit logs from the ACMS software at the security office, followed by data cleansing and EDA in Excel, and culminated in an interactive Power BI dashboard that gave engineering managers on-demand visibility into their workforce.
+Designed and built a **first-of-its-kind attendance analytics dashboard** for the respective department. The pipeline began with a manual extraction of access card entry/exit logs from the ACMS software at the security office, followed by data cleansing and EDA in Excel, and culminated in an interactive Power BI dashboard that gave respective department managers on-demand visibility into their workforce.
 
 ---
 
@@ -50,7 +50,7 @@ Designed and built a **first-of-its-kind attendance analytics dashboard** for th
       │
       ▼
 [Excel — Data Cleansing & EDA]
-  • Removed duplicates & inconsistencies
+  • Removed duplicates & detect inconsistencies
   • Structured raw swipe data into shift records
   • Calculated OT hours, absence flags, late arrivals
   • Exploratory analysis to identify patterns
@@ -58,8 +58,8 @@ Designed and built a **first-of-its-kind attendance analytics dashboard** for th
       ▼
 [Power BI Dashboard]
   • Interactive attendance analytics
-  • Drill-down by employee, shift, date range
-  • Used by System Engineering managers for resource planning
+  • Drill-down by employee
+  • Used by the respective department managers for resource planning
 ```
 
 ---
@@ -78,9 +78,9 @@ Designed and built a **first-of-its-kind attendance analytics dashboard** for th
 
 | Metric | Result |
 |---|---|
-| 🆕 First system of its kind | **Zero** attendance tracking tools existed before this project |
-| 👁️ Visibility created | Engineering managers gained **full workforce attendance oversight** for the first time |
-| 📊 Metrics tracked | Attendance, OT, absences, late arrivals, headcount — **all in one place** |
+| 🆕 First system of its kind | **Zero** attendance tracking tools existed within the respective department before this project |
+| 👁️ Visibility created | Respective department managers gained **full workforce attendance oversight** for the first time |
+| 📊 Metrics tracked | Attendance, OT, absences, late arrivals  — **all in one place** |
 | 🗂️ Data previously inaccessible | Raw logs were siloed in the security office with no analytical layer |
 
 ---
@@ -104,7 +104,7 @@ employee-attendance-powerbi-dashboard/
     └── dashboard_preview.png   ← Dashboard screenshot
 ```
 
-> ⚠️ **Note:** All data in this repository has been fully sanitized. Employee names, access card IDs, timestamps, and any personally identifiable information (PII) have been replaced with anonymized dummy data to protect employee privacy and company confidentiality.
+> ⚠️ **Note:** All data in this repository has been fully sanitized. Employee names, access card IDs, timestamps, and any personally identifiable information (PII) have been replaced with anonymized dummy data from **Kaggle.com** to protect employee privacy and company confidentiality.
 
 ---
 
@@ -127,4 +127,4 @@ employee-attendance-powerbi-dashboard/
 
 ---
 
-*Built during an apprenticeship program in the semiconductor/electronics manufacturing industry.*
+*Built during an apprenticeship program at Celestica Electronics (M) Sdn Bhd*
